@@ -25,9 +25,17 @@ button {
   transition: 0.2s ease-in-out;
 }
 
-button:hover {
-  background: #7c7c7c6b;
+#search-button {
+  background-color: #9e9c9c94;
 }
+
+#search-button:hover {
+  background-color: rgb(185, 183, 183);
+}
+
+/* button:hover {
+  background: #7c7c7c6b;
+} */
 
 h1.temp {
   margin: 0;
@@ -44,6 +52,10 @@ input.search-bar {
   font-family: inherit;
   font-size: 120%;
   width: calc(100% - 100px);
+}
+
+.search-bar:hover {
+  background-color: #9e9c9c94;
 }
 
 body {
